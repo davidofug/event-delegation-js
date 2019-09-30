@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Repeater</title>
+
+    <link href="css/style.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+    <table id="register">
+        <caption>Register</caption>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tody>
+            <tr id="row_0">
+                <td>
+                    <input type="text"  name="fname[]" placeholder="First name"/>
+                </td>
+                <td>
+                    <input type="text" name="lname[]" placeholder="Last name" />
+                </td>
+                <td>
+                    <input type="text" name="lname[]" placeholder="Age" />
+                </td>
+                <td>
+                    <input type="radio" value="female" name="gender[]" />Female<br/>
+                    <input type="radio" value="male" name="gender[]" />Male
+                </td>
+                <td>
+                    <a href="#" class="action add">Add</a>
+                    <a href="#" class="action delete">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="js/app.js"></script>
+    
+</body>
+</html>

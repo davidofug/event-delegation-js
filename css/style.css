@@ -1,0 +1,54 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a.action {
+    padding: 2px 10px;
+    border-radius: 4px;
+}
+a.add {
+    background: green;
+    color: #fff;
+}
+
+a.delete {
+    background: red;
+    color: #fff;
+}
+
+#register {
+    min-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+#register caption {
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+    #register th#age {
+        width: 40px;
+    }
+    #register tbody tr:even {
+        background: rgba(0,0,0,.7);
+    }
+    
+    #register th, #register td {
+        border: 1px solid rgba(0,0,0,0.5);
+        padding: 4px;
+    }
+
+    #register tr td:last-child {
+        text-align: center;
+    }
+
+    #register td > input {
+        padding: 3px 5px;
+        border-radius: 5px;
+        border: 1px solid rgba(0,0,0,0.4);
+    }
